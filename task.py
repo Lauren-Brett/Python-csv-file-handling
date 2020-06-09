@@ -12,6 +12,8 @@ with open("oscars.csv", "r") as csvfile:
         winners.append(current_winner)
 
 
+# 1. Create a list with all of the winners from the 1980s
+
 with open("oscars.csv", "r") as csvfile:
     reader = csv.reader(csvfile, skipinitialspace=True)
     next(reader)
@@ -25,6 +27,7 @@ with open("oscars.csv", "r") as csvfile:
 
 print(eighties_movies)
 
+# 2. Find the age of the oldest Oscar winner
 
 with open("oscars.csv", "r") as csvfile:
     reader = csv.reader(csvfile, skipinitialspace=True)
@@ -38,6 +41,7 @@ with open("oscars.csv", "r") as csvfile:
 
 print(oldest_age)
 
+# 3. Create a list with all of Meryl Streep's Oscar winning movies
 
 with open("oscars.csv", "r") as csvfile:
     reader = csv.reader(csvfile, skipinitialspace=True)
